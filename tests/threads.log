@@ -1,0 +1,457 @@
+Script started on 2026-03-25 01:52:42+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="160" LINES="24"]
+[?2004h]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ [7mexport OMP_NUM_THREADS=1[27m
+[7m./project test1.txt 100000[27m
+[7m./project test1.txt 500000[27m
+[7m./project test1.txt 1000000[27m
+[7m./project test1.txt 5000000[27m[A[A[A[A]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ export OMP_NUM_THREADS=1
+./project test1.txt 100000
+./project test1.txt 500000
+./project test1.txt 1000000
+./project test1.txt 5000000
+[?2004lTest file: test1.txt
+Trials: 100000
+Threads: 1
+Elapsed Time seconds: 0.005928
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 60412
+Penetration = 29672
+Catastrophic kill = 9916
+Survived = 90084
+
+Probabilities:
+No penetration probability = 0.604120
+Penetration probability = 0.296720
+Catastrophic kill probability = 0.099160
+Survivability probability = 0.900840
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+100000,1,0.005928,0.604120,0.296720,0.099160,0.900840
+Test file: test1.txt
+Trials: 500000
+Threads: 1
+Elapsed Time seconds: 0.030798
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 302403
+Penetration = 148584
+Catastrophic kill = 49013
+Survived = 450987
+
+Probabilities:
+No penetration probability = 0.604806
+Penetration probability = 0.297168
+Catastrophic kill probability = 0.098026
+Survivability probability = 0.901974
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+500000,1,0.030798,0.604806,0.297168,0.098026,0.901974
+Test file: test1.txt
+Trials: 1000000
+Threads: 1
+Elapsed Time seconds: 0.053379
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 604763
+Penetration = 296506
+Catastrophic kill = 98731
+Survived = 901269
+
+Probabilities:
+No penetration probability = 0.604763
+Penetration probability = 0.296506
+Catastrophic kill probability = 0.098731
+Survivability probability = 0.901269
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+1000000,1,0.053379,0.604763,0.296506,0.098731,0.901269
+Test file: test1.txt
+Trials: 5000000
+Threads: 1
+Elapsed Time seconds: 0.253566
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 3026211
+Penetration = 1481243
+Catastrophic kill = 492546
+Survived = 4507454
+
+Probabilities:
+No penetration probability = 0.605242
+Penetration probability = 0.296249
+Catastrophic kill probability = 0.098509
+Survivability probability = 0.901491
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+5000000,1,0.253566,0.605242,0.296249,0.098509,0.901491
+[?2004h]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ [7mexport OMP_NUM_THREADS=2[27m
+[7m./project test1.txt 100000[27m
+[7m./project test1.txt 500000[27m
+[7m./project test1.txt 1000000[27m
+[7m./project test1.txt 5000000[27m[A[A[A[A]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ export OMP_NUM_THREADS=2
+./project test1.txt 100000
+./project test1.txt 500000
+./project test1.txt 1000000
+./project test1.txt 5000000
+[?2004lTest file: test1.txt
+Trials: 100000
+Threads: 2
+Elapsed Time seconds: 0.003261
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 60258
+Penetration = 29776
+Catastrophic kill = 9966
+Survived = 90034
+
+Probabilities:
+No penetration probability = 0.602580
+Penetration probability = 0.297760
+Catastrophic kill probability = 0.099660
+Survivability probability = 0.900340
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+100000,2,0.003261,0.602580,0.297760,0.099660,0.900340
+Test file: test1.txt
+Trials: 500000
+Threads: 2
+Elapsed Time seconds: 0.013725
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 302275
+Penetration = 148207
+Catastrophic kill = 49518
+Survived = 450482
+
+Probabilities:
+No penetration probability = 0.604550
+Penetration probability = 0.296414
+Catastrophic kill probability = 0.099036
+Survivability probability = 0.900964
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+500000,2,0.013725,0.604550,0.296414,0.099036,0.900964
+Test file: test1.txt
+Trials: 1000000
+Threads: 2
+Elapsed Time seconds: 0.023726
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 604191
+Penetration = 297018
+Catastrophic kill = 98791
+Survived = 901209
+
+Probabilities:
+No penetration probability = 0.604191
+Penetration probability = 0.297018
+Catastrophic kill probability = 0.098791
+Survivability probability = 0.901209
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+1000000,2,0.023726,0.604191,0.297018,0.098791,0.901209
+Test file: test1.txt
+Trials: 5000000
+Threads: 2
+Elapsed Time seconds: 0.123320
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 3025213
+Penetration = 1481090
+Catastrophic kill = 493697
+Survived = 4506303
+
+Probabilities:
+No penetration probability = 0.605043
+Penetration probability = 0.296218
+Catastrophic kill probability = 0.098739
+Survivability probability = 0.901261
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+5000000,2,0.123320,0.605043,0.296218,0.098739,0.901261
+[?2004h]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ [7mexport OMP_NUM_THREADS=4[27m
+[7m./project test1.txt 100000[27m
+[7m./project test1.txt 500000[27m
+[7m./project test1.txt 1000000[27m
+[7m./project test1.txt 5000000[27m[A[A[A[A]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ export OMP_NUM_THREADS=4
+./project test1.txt 100000
+./project test1.txt 500000
+./project test1.txt 1000000
+./project test1.txt 5000000
+[?2004lTest file: test1.txt
+Trials: 100000
+Threads: 4
+Elapsed Time seconds: 0.001828
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 60435
+Penetration = 29578
+Catastrophic kill = 9987
+Survived = 90013
+
+Probabilities:
+No penetration probability = 0.604350
+Penetration probability = 0.295780
+Catastrophic kill probability = 0.099870
+Survivability probability = 0.900130
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+100000,4,0.001828,0.604350,0.295780,0.099870,0.900130
+Test file: test1.txt
+Trials: 500000
+Threads: 4
+Elapsed Time seconds: 0.008800
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 302243
+Penetration = 147924
+Catastrophic kill = 49833
+Survived = 450167
+
+Probabilities:
+No penetration probability = 0.604486
+Penetration probability = 0.295848
+Catastrophic kill probability = 0.099666
+Survivability probability = 0.900334
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+500000,4,0.008800,0.604486,0.295848,0.099666,0.900334
+Test file: test1.txt
+Trials: 1000000
+Threads: 4
+Elapsed Time seconds: 0.015398
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 604820
+Penetration = 296033
+Catastrophic kill = 99147
+Survived = 900853
+
+Probabilities:
+No penetration probability = 0.604820
+Penetration probability = 0.296033
+Catastrophic kill probability = 0.099147
+Survivability probability = 0.900853
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+1000000,4,0.015398,0.604820,0.296033,0.099147,0.900853
+Test file: test1.txt
+Trials: 5000000
+Threads: 4
+Elapsed Time seconds: 0.070925
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 3022436
+Penetration = 1481970
+Catastrophic kill = 495594
+Survived = 4504406
+
+Probabilities:
+No penetration probability = 0.604487
+Penetration probability = 0.296394
+Catastrophic kill probability = 0.099119
+Survivability probability = 0.900881
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+5000000,4,0.070925,0.604487,0.296394,0.099119,0.900881
+[?2004h]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ [7mexport OMP_NUM_THREADS=8[27m
+[7m./project test1.txt 100000[27m
+[7m./project test1.txt 500000[27m
+[7m./project test1.txt 1000000[27m
+[7m./project test1.txt 5000000[27m[A[A[A[A]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ export OMP_NUM_THREADS=8
+./project test1.txt 100000
+./project test1.txt 500000
+./project test1.txt 1000000
+./project test1.txt 5000000
+[?2004lTest file: test1.txt
+Trials: 100000
+Threads: 8
+Elapsed Time seconds: 0.003529
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 60546
+Penetration = 29498
+Catastrophic kill = 9956
+Survived = 90044
+
+Probabilities:
+No penetration probability = 0.605460
+Penetration probability = 0.294980
+Catastrophic kill probability = 0.099560
+Survivability probability = 0.900440
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+100000,8,0.003529,0.605460,0.294980,0.099560,0.900440
+Test file: test1.txt
+Trials: 500000
+Threads: 8
+Elapsed Time seconds: 0.009523
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 302124
+Penetration = 148093
+Catastrophic kill = 49783
+Survived = 450217
+
+Probabilities:
+No penetration probability = 0.604248
+Penetration probability = 0.296186
+Catastrophic kill probability = 0.099566
+Survivability probability = 0.900434
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+500000,8,0.009523,0.604248,0.296186,0.099566,0.900434
+Test file: test1.txt
+Trials: 1000000
+Threads: 8
+Elapsed Time seconds: 0.017629
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 604571
+Penetration = 296193
+Catastrophic kill = 99236
+Survived = 900764
+
+Probabilities:
+No penetration probability = 0.604571
+Penetration probability = 0.296193
+Catastrophic kill probability = 0.099236
+Survivability probability = 0.900764
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+1000000,8,0.017629,0.604571,0.296193,0.099236,0.900764
+Test file: test1.txt
+Trials: 5000000
+Threads: 8
+Elapsed Time seconds: 0.074907
+
+Test values:
+Base armour = 100.00
+Angle range = 0.00 to 70.00 degrees
+Penetration power range = 80.00 to 160.00
+Critical hit probability = 0.2500
+
+Simulation results:
+No penetration = 3022788
+Penetration = 1482984
+Catastrophic kill = 494228
+Survived = 4505772
+
+Probabilities:
+No penetration probability = 0.604558
+Penetration probability = 0.296597
+Catastrophic kill probability = 0.098846
+Survivability probability = 0.901154
+
+CSV:
+trials,threads,time,no_pen_prob,pen_prob,kill_prob,survive_prob
+5000000,8,0.074907,0.604558,0.296597,0.098846,0.901154
+[?2004h]0;cois4350@lakshanththirumugam: ~/COIS-4350H/project[01;32mcois4350@lakshanththirumugam[00m:[01;34m~/COIS-4350H/project[00m$ exit
+[?2004lexit
+
+Script done on 2026-03-25 01:55:19+00:00 [COMMAND_EXIT_CODE="0"]
